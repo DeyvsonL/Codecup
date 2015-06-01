@@ -1,0 +1,253 @@
+body{
+	margin: auto;
+	font-family: verdana;
+}
+
+#topo{
+	margin: auto;
+}
+#logo{
+	height: 300px;
+	background-color: #2FC1E2;
+}
+
+#logo img {
+	height: 100%;
+
+}
+
+#menu{
+	height: 290px;
+}
+
+.opcaoMenu{
+	cursor: pointer;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.opcaoMenu img{
+	margin: auto;
+}
+
+.opcaoMenu h1{
+	font-size: 18px;
+}
+
+.opcaoMenu p{
+	position: relative;
+	width: 70%;
+}
+
+#mapa{
+	margin: auto;
+	margin-top: 40px;
+	height: 500px; 
+	width: 90%;
+}
+
+
+#rodape{
+	margin-top: 40px;
+	background-color: #00354D;
+	width: 100%;
+}
+
+#news{
+	margin-top: 50px;
+}
+
+#news h1{
+	color: white;
+	font-size: 20px;
+}
+
+#news p{
+	color: white;
+	font-size: 14px;
+}
+
+#social{
+	margin-top: 70px;
+}
+
+#social img{
+	margin: 10px;
+}
+
+#social h1{
+	color: white;
+	font-size: 20px;
+}
+
+#links{
+	margin-top: 85px;
+}
+
+#links a{
+	color: white;
+	font-size: 20px;
+}
+
+#campoEmail{
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	padding: 0 5px 0 5px; 
+	height: 30px;
+	width: 60%;
+}
+
+#filtro{
+	margin: auto;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	padding: 0 5px 0 5px;
+	height: 50px;
+	width: 100%;
+	font-size: 22px;
+}
+
+
+.but {
+	display: inline-block;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	padding: 10px 20px;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	border: 0px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+@media (max-width:650px){
+	.col-xs-12{
+		margin-top: 10px;
+	}
+	.col-xs-12 img{
+		width: 50px;
+	}
+
+	.col-xs-12 h1{
+		font-size: 14px
+	}
+
+	.col-xs-12 p{
+		font-size: 12px
+	}
+}
+
+
+
+@media (max-width:991px){
+	.col-xs-12 img{
+		width: 70px;
+	}
+
+	.col-xs-12 h1{
+		font-size: 16px
+	}
+
+	.col-xs-12 p{
+		font-size: 13px
+	}
+
+	#menu{
+	height: 180px;
+	}
+
+	#mapa{
+		margin: auto;
+		margin-top: 40px;
+		height: 500px; 
+		width: 90%;
+	}
+
+	#rodape{
+		margin-top: 40px;
+		background-color: #00354D;
+		width: 100%;
+	}
+}
+
+@media (max-width:768px){
+	#menu{
+	height: 600px;
+	}
+	#mapa{
+		margin: auto;
+		margin-top: 0px;
+		height: 500px; 
+		width: 90%;
+	}
+
+	#rodape{
+		margin-top: 40px;
+		background-color: #00354D;
+		width: 100%;
+	}
+}
+
+.oculto{
+	display: none;
+}
+
+.mostrar{
+	display: block;
+}
+
+
+#obras, #politicos{
+	margin: auto;
+	margin-top:40px;
+	width: 90%;
+
+}
+
+#obras table, #politicos table{
+	border: 1px solid #2FC1E2;
+	width: 95%;
+	font-size: 25px;
+	color: #00354D;
+}
+
+#obras tr, #politicos tr{
+	border: 1px solid #2FC1E2;
+
+}
+
+
+#obras td, #politicos td{
+	padding: 18px;
+}
+
+.nomeObra{
+	font-size: 20px;
+}
+
+#obraSelecionada, #politicoSelecionado{
+	margin:auto;
+	widtth: 90%;
+}
+
+#obraSelecionada img, #politicoSelecionado img{
+	width: 100%;
+}
+
+.obraSelecionada, .politicoSelecionado{
+	margin: auto;
+	width:90%;
+}
+
+.infoObraSelecionada, .infoPoliticoSelecionado{
+	margin: auto;
+	width: 90%;
+}
+
+.infoObraSelecionada h1, .infoPoliticoSelecionado h1{
+	font-weight: bold;
+	font-size: 16px;
+}
